@@ -256,7 +256,8 @@ footer nav a {
     font-size: 18px;
 }
 
-.jumbo, .jumbo-about {
+.jumbo,
+.jumbo-about {
     margin: 20px 0;
     width: 100%;
     height: auto;
@@ -293,19 +294,67 @@ footer nav a {
 .box-8 {
     background-color: hotpink;
 }
+
 .box-9 {
     background-color: indigo;
 }
+
 .box-10 {
     background: dodgerblue;
 }
+
 .about {
     padding: 0 10px 10px;
     border-bottom: 1px dashed black;
 }
+
 .about h2 {
     font-size: 22px;
 }
-/* .about p {
-    padding: 0 10px;
-} */
+
+.card-sections {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+}
+
+.card {
+    padding-bottom: 15px;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    margin-top: 15px;
+}
+
+.learn-more-btn {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: all 0.25s;
+    outline: none;
+}
+
+.learn-more-btn:active {
+    transform: translateY(5px);
+    outline: none;
+}
+
+.learn-more-btn:hover {
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.lets-work {
+    padding: 5px 10px 20px 15px;
+}
