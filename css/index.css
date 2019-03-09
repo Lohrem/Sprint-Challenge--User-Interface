@@ -256,8 +256,10 @@ footer nav a {
     font-size: 18px;
 }
 
-.jumbo {
+.jumbo, .jumbo-about {
     margin: 20px 0;
+    width: 100%;
+    height: auto;
 }
 
 .box-1 {
